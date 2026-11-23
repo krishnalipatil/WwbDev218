@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+header
+{
+    background-color: rgb(238, 238, 205);
+    padding: 20px;
+    border-bottom:2px solid rgb(205, 43, 43);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+    font-weight:600;
+    margin: 0 12px;
+}
+nav a:hover{
+    color: rgb(0, 76, 255);
+    text-decoration: underline;
+}
+
+#hero-home{
+    background-image: url("/assets/images/banner.png");
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    padding: 55px 80px;
+
+}
+#hero-home h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    width: 650px;
+    margin-bottom: 50px;
+
+}
+#hero-home h1 span{
+    color: rgb(185, 185, 11);
+}
+#hero-home p{
+    color: white;
+    width: 420px;
+    margin-bottom: 35px;
+}
+
+.hero-buttons a{
+    width: 150px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px; 
+}
+#order-btn {
+    background-color: red;
+    color: wheat;
+    margin-right: 15px;
+}
+#menu-btn{
+
+   color: rgb(18, 17, 17);
+   background-color: beige;
+   border: 2px solid white;
+}
+#specialities{
+    background-color: beige;
+    padding: 40px;
+    text-align: center;
+
+}
+#specialities ul,ol{
+   display: inline-block;
+   line-height: 2;
+   margin-bottom: 20px;
+
+}
+#specialities li{
+    font-size: 17px;
+}
+#offers{
+    background: rgb(243, 222, 222);
+    padding: 40px;
+    text-align: center;
+    border: 2px solid orange;
+}
+#offers a{
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+}
+#customer-notice
+{
+   background-color: aquamarine;
+   border-left: 5px solid orange;
+}
+#customer-notice h2{
+    color: red;
+    margin-bottom: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+#customer-notice span{
+    background-color: yellow;
+}
+#faq{
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+#faq h2{
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#faq details{
+    background-color: white;
+    border: 2px solid rgb(178, 171, 171);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#faq summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 15px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+}
+footer a:hover{
+color: orange;
+text-decoration: underline;
+}
+
+#menu-items div{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#menu-items article{
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(62, 3, 3);
+} 
+#menu-items article:hover{
+    transform: translateY(-10px);
+}
+
+#about-hero{
+    background-color: bisque;
+    text-align: center;
+    padding: 50px 20px;
+}
+#story{
+    padding: 40px 20px;
+    text-align: center;
+}
+#chefs
+{
+    padding: 40PX 20PX;
+    text-align: center;
+
+}
+#chefs article
+{
+    display: inline-block;
+    background-color: azure;
+    width: 280px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(243, 120, 12);
+
+}
+#chefs img{
+   
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#business-hours{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+table{
+    width: 100%;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid bisque;
+}
+#registration-form,#contact-form{
+    width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rebeccapurple;
+
+}
+form h3{
+    margin-top: 20px;
+
+}
+label{
+    font-weight: 700;
+}
+input,select,textarea{
+
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="radio"],[type="checkbox"]
+{
+    width: auto;
+    margin-right: 8px;
+}
+input[type="submit"],[type="reset"]
+{
+    background-color: red;
+    color: white;
+}
+#cart-hero
+{
+    background-color: rgb(240, 108, 60);
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+#cart-details{
+    background-color: antiquewhite;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+}
+#cart-details table{
+    width: 100%;
+   text-align: center;
+
+}
+#cart-details th{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+#cart-details td{
+    padding: 15px;
+    border: 2px solid rgb(255, 191, 191);
+
+}
+#cart-details button{
+    padding: 5px 12px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
