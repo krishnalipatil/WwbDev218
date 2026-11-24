@@ -93,5 +93,10 @@ function changeMode()
     console.log(document.body.classList.contains("dark"));
 }
 
+function getValue()
 
+{
+    const name=document.getElementById("myinput").value;
+    document.getElementById("mypg").textContent=name;
+}
 
